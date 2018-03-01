@@ -1,0 +1,52 @@
+/* GENERAL   start*/
+body {
+    font-size: 18px;
+    font-family: Tahoma, Geneva, sans-serif; 
+}  
+/* GENERAL end*/
+
+/*FORM start*/  
+label{
+	display: block;
+	width: 400px;
+	float: left;	
+	margin-left: 10em;
+}
+p{
+	font-size: 0.6em;
+	margin-top: 0;
+	margin-left: 20em;
+}
+h1{
+	text-align: center;
+	color: #858585;  
+}
+h2{
+	border: solid 1px #858585;
+	background-color: #A6A4A4;
+	color: #fff;
+	border-radius: 3px;
+	padding: 10px;
+}
+h3{
+	margin-left: 40px;
+	color: #858585;
+	margin-top: 2em;
+}
+#btn{
+	margin: 1em;
+	margin-left: 70em;
+}
+.trait{
+	border-top: 1px dotted #858585; 
+	width : 50em; 
+	margin: auto; 
+}
+#btn1{
+	margin-left: 45em;
+	margin-top: 2em;
+}
+#btn2{
+	margin-left: 60em;
+	margin-top: 2em;
+}

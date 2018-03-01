@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>evaluation_1</title>
+	<meta charset="utf-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<h1>CALCULER SON BUDGET MENSUEL</h1>
+	</header>
+	<section>
+		<h2>Calcul des dépenses</h2>
+            <!-- <div class="row">
+                <div class="col-sm-12 h600px">  -->                      
+                    <div class="expenses">
+                    	<h3>Dépenses fixes</h3>
+                        	<form method="post">
+							  <label for="rent_expenses">Loyer et charges *</label>
+							  <input type="number
+							  " name="rent" id="rent_expenses" placeholder="Entrez un nombre" required="Veuillez compléter ce champ" />€<br>
+							  <label for="credit_expenses">Remboursement de crédits</label>
+							  <input type="number
+							  " name="credit" id="credit_expenses"/>€<br>
+							  <label for="energetic_expenses">Eau / électricité / gaz *</label>
+							  <input type="number
+							  " name="energetic" id="energetic_expenses" required="Veuillez compléter ce champ"/>€<br>
+							  <label for="phone_expenses">Téléphone / internet *</label>
+							  <input type="number
+							  " name="phone" id="phone_expenses" required="Veuillez compléter ce champ"/>€<br>
+							  <label for="home_insurance">Assurance habitation</label>
+							  <input type="number
+							  " name="insurance" id="home_insurance"/>€<br>
+							  <label for="car_insurance">Assurance véhicules</label>
+							  <input type="number
+							  " name="car_insur" id="car_insurance"/>€<br>
+							  <label for="mutual_health">Mutuelle santé</label>
+							  <input type="number
+							  " name="health" id="mutual_health"/>€<br>
+							  <label for="care_expenses">Frais de garde</label>
+							  <input type="number
+							  " name="care" id="care_expenses"/>€<br>
+							  <label for="icome_taxes">Impôts sur le revenu</label>
+							  <input type="number
+							  " name="i_taxes" id="icome_taxes"/>€<br>
+							  <label for="local_taxes">Impôts locaux</label>
+							  <input type="number
+							  " name="l_taxes" id="local_taxes"/>€<br>	
+								<p>*champs obligatoires</p>
+							  <input type="button" id="btn" name="ajouter" value="Ajouter un champ">
+								<div class="trait"></div>	
+                    	<h3>Dépenses courantes</h3>
+							  <label for="grocery">Courses</label>
+							  <input type="number
+							  " name="grocery" id="grocery"/>€<br>
+							  	<p>(Budget hebdomadaire sera reporté au mois)</p>
+							  <label for="gasoline">Essence / frais de transport en communs</label>
+							  <input type="number
+							  " name="gasoline" id="gasoline"/>€<br>
+							    <p>(Budget hebdomadaire sera reporté au mois)</p>
+							  <label for="sport_culture">Activités sportives et culturelles</label>
+							  <input type="number
+							  " name="sp_culture" id="sport_culture"/>€<br>
+							  	<p>(Budget annuel sera reporté au mois)</p>   
+							  <input type="button" id="btn" name="ajouter" value="Ajouter un champ">	
+							  	<div class="trait"></div>  
+						<h3>Dépenses occasionnelles</h3>
+							   <label for="hobbies">Sorties</label>
+							   <input type="number
+							   " name="hobbies" id="hobbies"/>€<br>
+							   	<p>(Budget hebdomadaire sera reporté au mois)</p>
+							   <input type="button" id="btn" name="ajouter" value="Ajouter un champ">	
+		<h2>Calcul des recettes</h2>
+						<h3>Recettes</h3>
+							   <label for="wages">Salaire</label>
+							   <input type="number
+							   " name="wages" id="wages"/>€<br>
+							   <label for="aids">Aides (allocations, etc...)</label>
+							   <input type="number
+							   " name="aids" id="aids"/>€<br>
+							   <label for="annuities">Rentes</label>
+							   <input type="number
+							   " name="annuities" id="annuities"/>€<br>
+							   <label for="other">Autres</label>
+							   <input type="number
+							   " name="other" id="other"/>€<br>
+							   <input type="button" id="btn" name="ajouter" value="Ajouter un champ">
+		<h2>Calcul de l'épargne</h2>
+						<h3>Epargne</h3>
+							   <label for="saving">Epargne</label>
+							   <input type="number
+							   " name="save" id="saving">€<br>
+							   <input type="button" id="btn" name="ajouter" value="Ajouter un champ"><br>		
+							   <input type="submit" id="btn1" name="valider" value="CALCULER"><br>	
+							   <input type="reset" id="btn2" name="reset" value="Remise à zéro">		   	   
+                            </form>
+                    </div>
+           
+		</div>	
+    </section>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>    
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
