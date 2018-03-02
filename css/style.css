@@ -1,52 +1,72 @@
+
 /* GENERAL   start*/
 body {
-    font-size: 18px;
+    font-size: 16px;
     font-family: Tahoma, Geneva, sans-serif; 
 }  
 /* GENERAL end*/
 
-/*FORM start*/  
-label{
-	display: block;
-	width: 400px;
-	float: left;	
-	margin-left: 10em;
-}
+
+
+/*FORM start*/ 
 p{
 	font-size: 0.6em;
-	margin-top: 0;
-	margin-left: 20em;
+	margin-left: 5%;
 }
 h1{
+	padding: 3%;
 	text-align: center;
 	color: #858585;  
 }
 h2{
+	margin-top: 2%;
 	border: solid 1px #858585;
 	background-color: #A6A4A4;
 	color: #fff;
 	border-radius: 3px;
 	padding: 10px;
+	box-shadow: 10px 0px 10px #858585;
 }
 h3{
 	margin-left: 40px;
 	color: #858585;
-	margin-top: 2em;
-}
-#btn{
-	margin: 1em;
-	margin-left: 70em;
+	margin-top: 0.5em;
+	text-shadow: 2px 2px 2px #b6c2c4;
 }
 .trait{
 	border-top: 1px dotted #858585; 
 	width : 50em; 
 	margin: auto; 
 }
+.row{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+/*   FORM end     */
+
+/*  button start  */
+#btn {
+	width:110px;
+	cursor:pointer;
+	text-transform:capitalize;
+	border-radius:12px 0 12px 0;
+	background: #A6A4A4;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+	padding:6px 1px 6px 1px;
+}
 #btn1{
-	margin-left: 45em;
-	margin-top: 2em;
+	margin-top: 5%;
+	width:180px;
+	cursor:pointer;
+	text-transform:capitalize;
+	border-radius:6px 6px 6px 6px;
+	background: #A6A4A4;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+	padding:6px 1px 6px 1px;
+
 }
-#btn2{
-	margin-left: 60em;
-	margin-top: 2em;
-}
+
