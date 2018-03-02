@@ -13,21 +13,21 @@ console.log('hello');
 			});
 			$("#add").val(exp);	
 
-/* for add class saving */
-			$(".b").each(function(){
-				exp+=($(this).val())*1;
-			});
-			$("#add").val(exp);
-		});
+// /* for add class saving */
+// 			$(".b").each(function(){
+// 				exp+=($(this).val())*1;
+// 			});
+// 			$("#add").val(exp);
+ 		});
 
 
 	
 
 
-	if('.o'===full){
-		return false;
-		alert('Veuillez remplir le champ');
-	}
+// 	if('.o'===full){
+// 		return false;
+// 		alert('Veuillez remplir le champ');
+	// }
 })();
 
 
