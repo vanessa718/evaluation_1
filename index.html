@@ -8,22 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-
-
-<!-- <div class="form-group row">
-  <label for="example-text-input" class="col-2 col-form-label">Text</label>
-  <div class="col-10">
-    <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
-  </div>
-</div>
-<div class="form-group row">
-  <label for="example-search-input" class="col-2 col-form-label">Search</label>
-  <div class="col-10">
-    <input class="form-control" type="search" value="How do I shoot web" id="example-search-input">
-  </div>
-</div> -->
-
-
 <body>
 	<div class="container">
 		<h1>CALCULER SON BUDGET MENSUEL</h1>
@@ -36,156 +20,155 @@
 	                        		<div class="form-group row">
 										<label for="rent_expenses" class="col-7 col-form">Loyer et charges *</label>  	
 	                        				<div class="col-5">
-										  		<input type="text" class="form-control" name="rent" id="	rent_expenses" placeholder="Entrez un nombre" required="Veuillez compléter ce champ" /><br>
+										  		<input type="text" class="form-control a o" name="rent" id="	rent_expenses" placeholder="Entrez un nombre"/><br>
 											</div>  
 								  	</div>
 								  	<div class="form-group row">
 									  	<label for="credit_expenses" class="col-7 col-form">Remboursement de crédits</label>
 											<div class="col-5">
-										  		<input type="text" class="form-control" name="credit" id="credit_expenses"/><br>
+										  		<input type="text" class="form-control a" name="credit" id="credit_expenses"/><br>
 										  	</div>	
 									</div>
 									<div class="form-group row">
 									  	<label for="energetic_expenses" class="col-7 col-form">Eau / électricité / gaz *</label>
 										  	<div class="col-5">
-										  		<input type="text" class="form-control" name="energetic" id="energetic_expenses" required="Veuillez compléter ce champ"/><br>
+										  		<input type="text" class="form-control a o" name="energetic" id="energetic_expenses" required="Veuillez compléter ce champ"/><br>
 										  	</div>	
 								  	</div>
 								  	<div class="form-group row">
 									  	<label for="phone_expenses" class="col-7 col-form">Téléphone / internet *</label>
 										  	<div class="col-5">
-										  		<input type="text" class="form-control" name="phone" id="phone_expenses" required="Veuillez compléter ce champ"/><br>
+										  		<input type="text" class="form-control a à" name="phone" id="phone_expenses" required="Veuillez compléter ce champ"/><br>
 										  	</div>	
 								  	</div>
 								  	<div class="form-group row">
 									  	<label for="home_insurance" class="col-7 col-form">Assurance habitation</label>
 									  		<div class="col-5">
-									  			<input type="text" class="form-control" name="insurance" id="home_insurance"/><br>
+									  			<input type="text" class="form-control a" name="insurance" id="home_insurance"/><br>
 											</div>
 								  	</div>
 								  	<div class="form-group row">
 									  	<label for="car_insurance" class="col-7 col-form">Assurance véhicules</label>
 										  	<div class="col-5"> 	
-										 		<input type="text" class="form-control" name="car_insur" id="car_insurance"/><br>
+										 		<input type="text" class="form-control a" name="car_insur" id="car_insurance"/><br>
 											</div>
 								  	</div>
 								  	<div class="form-group row">
 									  	<label for="mutual_health" class="col-7 col-form">Mutuelle santé</label>
 									  		<div class="col-5">
-									  			<input type="text" class="form-control" name="health" id="mutual_health"/><br>
+									  			<input type="text" class="form-control a" name="health" id="mutual_health"/><br>
 											</div>
 									</div>
 									<div class="form-group row">  
 									  	<label for="care_expenses" class="col-7 col-form">Frais de garde</label>
 									  		<div class="col-5">
-									  			<input type="text" class="form-control" name="care" id="care_expenses"/><br>
+									  			<input type="text" class="form-control a" name="care" id="care_expenses"/><br>
 											</div>
 									</div>
 									<div class="form-group row">  
 									  	<label for="icome_taxes" class="col-7 col-form">Impôts sur le revenu</label>
 									  		<div class="col-5">
-									  			<input type="text" class="form-control" name="i_taxes" id="icome_taxes"/><br>
+									  			<input type="text" class="form-control a" name="i_taxes" id="icome_taxes"/><br>
 											</div>
 									</div>
 									<div class="form-group row">  
 									  	<label for="local_taxes" class="col-7 col-form">Impôts locaux</label>
 									  		<div class="col-5">
-									  			<input type="text" class="form-control" name="l_taxes" id="local_taxes"/><br>
+									  			<input type="text" class="form-control a" name="l_taxes" id="local_taxes"/><br>
 									  				<button type="button" id="btn">Ajout champ</button><br>
 											</div>
 												<p>*champs obligatoires</p>
 									</div> 
 									<div class="trait"></div>	
 
-	                    	<h3>Dépenses courantes</h3>
-	                    			<div class="form-group row">
-									  	<label for="grocery" class="col-7 col-form">Courses</label>
-									  		<div class="col-5">									  
-										 		 <input type="text" class="form-control" name="grocery" id="grocery"/><br>
-									  				<p>(Budget hebdomadaire sera reporté au mois)</p>
-											</div>
-									</div>  
-									<div class="form-group row">  	
-									  	<label for="gasoline" class="col-7 col-form">Essence / frais de transport en communs</label>
-									  		<div class="col-5">
-									  			<input type="text" class="form-control" name="gasoline" id="gasoline"/><br>
-									    			<p>(Budget hebdomadaire sera reporté au mois)</p>
-											</div>
-									</div>  
-									<div class="form-group row">    
-									  	<label for="sport_culture" class="col-7 col-form">Activités sportives et culturelles</label>
-									  		<div class="col-5">
-									  			<input type="text" class="form-control" name="sp_culture" id="sport_culture"/><br>
-									  				<p>(Budget annuel sera reporté au mois)</p> 
-									  					<button type="button" id="btn">Ajout champ</button><br> 
-											</div>
-									</div>	
-									  	<div class="trait"></div> 
+	                    			<h3>Dépenses courantes</h3>
+		                    			<div class="form-group row">
+										  	<label for="grocery" class="col-7 col-form">Courses</label>
+										  		<div class="col-5">									  
+											 		 <input type="text" class="form-control a" name="grocery" id="grocery"/><br>
+										  				<p>(Budget hebdomadaire sera reporté au mois)</p>
+												</div>
+										</div>  
+										<div class="form-group row">  	
+										  	<label for="gasoline" class="col-7 col-form">Essence / frais de transport en communs</label>
+										  		<div class="col-5">
+										  			<input type="text" class="form-control a" name="gasoline" id="gasoline"/><br>
+										    			<p>(Budget hebdomadaire sera reporté au mois)</p>
+												</div>
+										</div>  
+										<div class="form-group row">    
+										  	<label for="sport_culture" class="col-7 col-form">Activités sportives et culturelles</label>
+										  		<div class="col-5">
+										  			<input type="text" class="form-control a" name="sp_culture" id="sport_culture"/><br>
+										  				<p>(Budget annuel sera reporté au mois)</p> 
+										  					<button type="button" id="btn">Ajout champ</button><br> 
+												</div>
+										</div>	
+										  	<div class="trait"></div> 
 
-							<h3>Dépenses occasionnelles</h3>
-									<div class="form-group row">
-									   	<label for="hobbies" class="col-7 col-form">Sorties</label>
-									   		<div class="col-5">
-									   			<input type="text" class="form-control" name="hobbies" id="hobbies"/><br>
-									   				<p>(Budget hebdomadaire sera reporté au mois)</p>
-									   					<button type="button" id="btn">Ajout champ</button><br>
-											</div>
-									</div>   
+									<h3>Dépenses occasionnelles</h3>
+										<div class="form-group row">
+										   	<label for="hobbies" class="col-7 col-form">Sorties</label>
+										   		<div class="col-5">
+										   			<input type="text" class="form-control a" name="hobbies" id="hobbies"/><br>
+										   				<p>(Budget hebdomadaire sera reporté au mois)</p>
+										   					<button type="button" id="btn">Ajout champ</button><br>
+												</div>
+										</div>   
 									  
-			<h2>Calcul des recettes</h2>
-							<h3>Recettes</h3>
-									<div class="form-group row">
-									   	<label for="wages" class="col-7 col-form">Salaire</label>
-									   		<div class="col-5">
-									   			<input type="text" class="form-control" name="wages" id="wages"/><br>
-											</div>
-									</div>
-									<div class="form-group row">   
-									   	<label for="aids" class="col-7 col-form">Aides (allocations, etc...)</label>
-									   		<div class="col-5">
-									   			<input type="text" class="form-control" name="aids" id="aids"/><br>
-											</div>
-									</div>
-									<div class="form-group row">   
-									   	<label for="annuities" class="col-7 col-form">Rentes</label>
-									   		<div class="col-5">
-									   			<input type="text" class="form-control" name="annuities" id="annuities"/><br>
-											</div>
-									</div>
-									<div class="form-group row">   
-									   	<label for="other" class="col-7 col-form">Autres</label> 
-									   		<div class="col-5">
-									   			<input type="text" class="form-control" name="other" id="other"/><br>
-									   				<button type="button" id="btn">Ajout champ</button><br>
-									   		</div>	
-									</div>   
+									<h2>Calcul des recettes</h2>
+										<h3>Recettes</h3>
+												<div class="form-group row">
+												   	<label for="wages" class="col-7 col-form">Salaire</label>
+												   		<div class="col-5">
+												   			<input type="text" class="form-control b" name="wages" id="wages"/><br>
+														</div>
+												</div>
+												<div class="form-group row">   
+												   	<label for="aids" class="col-7 col-form">Aides (allocations, etc...)</label>
+												   		<div class="col-5">
+												   			<input type="text" class="form-control b" name="aids" id="aids"/><br>
+														</div>
+												</div>
+												<div class="form-group row">   
+												   	<label for="annuities" class="col-7 col-form">Rentes</label>
+												   		<div class="col-5">
+												   			<input type="text" class="form-control b" name="annuities" id="annuities"/><br>
+														</div>
+												</div>
+												<div class="form-group row">   
+												   	<label for="other" class="col-7 col-form">Autres</label> 
+												   		<div class="col-5">
+												   			<input type="text" class="form-control b" name="other" id="other"/><br>
+												   				<button type="button" id="btn">Ajout champ</button><br>
+												   		</div>	
+												</div>   
 
 									<h2>Calcul de l'épargne</h2>
-									<h3>Epargne</h3>
-									<div class="form-group row">
-									   	<label for="saving" class="col-7 col-form">Epargne</label>
-									   		<div class="col-5">
-									   			<input type="text" class="form-control" name="save" id="saving"><br>
-									   <button type="button" id="btn" onClick="add();">Ajout champ</button><br>	
-									   		</div>	
-									</div>
+										<h3>Epargne</h3>
+											<div class="form-group row">
+											   	<label for="saving" class="col-7 col-form">Epargne</label>
+											   		<div class="col-5">
+											   			<input type="text" class="form-control b" name="save" id="saving"><br>
+											   				<button type="button" id="btn" onClick="add();">Ajout champ</button><br>	
+											   		</div>	
+											</div>
 									<h2>Calcul du solde</h2>
-									<h3>Solde</h3>
-									<div class="form-group row"> 
-										<label for="add" class="col-7 col-form">TOTAL</label>
-											<div class="col-5">
-												<input type="text" class="form-control" name="add" id="add"/>
-									   				<button type="button" id="btn1" >CALCULER</button><br>	
-											</div>	
-									   	
-									   <button type="button" id="btn" name="reset">Reset</button>
-									</div>   		   	   
+										<h3>Solde</h3>
+											<div class="form-group row"> 
+												<label for="add" class="col-7 col-form">TOTAL</label>
+													<div class="col-5">
+														<input type="text" class="form-control" name="add" id="add"/>
+											   				<button type="button" id="btn1" >CALCULER</button><br>	
+													</div>	
+									  			<button type="button" id="btn" name="reset">Reset</button>
+											</div>   		   	   
 	                            </form>
 	        
-	                    </div>
+	                	</div>
 					</div>
 	</div>                    
-    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>    
+    <script type="text/javascript" src="js/jquery.min.js"></script>    
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
